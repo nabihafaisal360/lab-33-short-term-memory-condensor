@@ -1,0 +1,10 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "agent": "./src/manual_triming/graph.py:graph",
+    "selective_deletition": "./src/selective_deletition/graph.py:graph",
+    "summarization": "./src/summarization/graph.py:graph",
+    "tokenaware_truncation": "./src/Tokenaware_truncation/graph.py:graph"
+  },
+  "env": ".env"
+}
